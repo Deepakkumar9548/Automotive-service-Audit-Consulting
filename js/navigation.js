@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const link = item.querySelector('.nav-link');
     if (link) {
       link.addEventListener('click', (e) => {
-        if (window.innerWidth <= 860) {
+        if (window.innerWidth <= 1140) {
           e.preventDefault();
           item.classList.toggle('dropdown-open');
         }
