@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <!-- Gold Gradient for swooshes & checkmark -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5A93C" />
+      <stop offset="50%" stop-color="#C58928" />
+      <stop offset="100%" stop-color="#A66F18" />
+    </linearGradient>
+
+    <!-- Deep Corporate Navy Gradient for ASAC -->
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081A36" />
+      <stop offset="100%" stop-color="#0E2A54" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= CAR SILHOUETTE & SPEED STREAKS ================= -->
+  <!-- Top Roofline Curve -->
+  <path d="M 230 145 C 310 95, 450 75, 570 120 C 585 125, 545 110, 485 105 C 410 98, 320 115, 230 145 Z" fill="#081A36" />
+  
+  <!-- Front Hood & Windshield Sweep -->
+  <path d="M 170 152 C 220 130, 290 120, 360 125 C 420 129, 500 148, 540 155 C 575 160, 520 152, 470 145 C 390 135, 270 135, 170 152 Z" fill="#081A36" />
+
+  <!-- Lower Aerodynamic Body Streak -->
+  <path d="M 215 158 C 265 142, 355 138, 435 146 C 405 144, 325 142, 275 152 C 245 158, 225 162, 215 158 Z" fill="#081A36" />
+
+  <!-- Side Window Fin Cutout accent -->
+  <path d="M 430 112 C 455 112, 480 125, 495 135 C 470 128, 445 122, 420 122 Z" fill="#081A36" />
+
+  <!-- Dynamic Growth Chart Bars (Rising Profitability) -->
+  <rect x="585" y="112" width="16" height="32" rx="3" fill="#081A36" />
+  <rect x="612" y="94" width="16" height="50" rx="3" fill="#081A36" />
+  <rect x="639" y="72" width="16" height="72" rx="3" fill="#081A36" />
+  <rect x="666" y="52" width="16" height="92" rx="3" fill="#081A36" />
+
+  <!-- Golden Upward Financial Growth Swoosh -->
+  <path d="M 535 152 C 600 148, 675 128, 735 60 C 700 95, 620 132, 535 152 Z" fill="url(#goldGrad)" />
+
+  <!-- ================= ASAC TYPOGRAPHY WITH EMBEDDED GOLD CHECKMARK ================= -->
+  <g font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-style="italic" fill="#081A36">
+    <!-- Letter 'A' base -->
+    <path d="M 148 152 L 105 248 L 62 248 L 132 152 L 180 152 L 235 248 L 190 248 L 176 220 L 135 220 L 148 152 Z" />
+    
+    <!-- Letter 'S' with sleek modern slit cut -->
+    <path d="M 270 196 C 265 186, 275 178, 295 174 C 330 166, 385 168, 408 174 L 396 195 C 370 190, 325 188, 305 192 C 295 194, 290 198, 292 203 C 295 208, 305 212, 335 216 C 390 224, 412 235, 404 254 C 395 275, 345 282, 295 280 C 255 278, 230 270, 222 264 L 236 242 C 255 250, 290 256, 330 256 C 350 256, 360 252, 363 246 C 365 240, 355 235, 325 230 C 275 222, 260 210, 270 196 Z" />
+
+    <!-- Second 'A' -->
+    <path d="M 470 152 L 415 248 L 460 248 L 472 224 L 518 224 L 532 248 L 578 248 L 515 152 L 470 152 Z M 482 202 L 493 178 L 507 202 Z" />
+
+    <!-- Letter 'C' -->
+    <path d="M 725 174 C 695 166, 640 165, 608 176 C 565 190, 550 224, 565 254 C 580 282, 630 288, 680 285 C 715 282, 735 272, 742 266 L 730 244 C 715 252, 685 260, 650 260 C 620 260, 600 248, 595 232 C 590 214, 605 194, 635 188 C 665 182, 700 186, 715 192 Z" />
+  </g>
+
+  <!-- Golden Verification Checkmark intersecting First 'A' -->
+  <path d="M 112 215 L 142 248 L 158 240 L 265 172 C 220 185, 175 210, 142 234 L 126 215 Z" fill="url(#goldGrad)" />
+
+  <!-- ================= SUB-BRANDING DIVIDER & REFINED TEXT ================= -->
+  <!-- Left Gold Accent Line -->
+  <line x1="25" y1="278" x2="115" y2="278" stroke="#C58928" stroke-width="4" stroke-linecap="round" />
+
+  <!-- AUTOMOBILE SERVICE AUDIT & CONSULTING -->
+  <text x="400" y="284" font-family="'Segoe UI', -apple-system, Roboto, 'Helvetica Neue', sans-serif" font-size="25" font-weight="900" fill="#081A36" text-anchor="middle" letter-spacing="2">
+    AUTOMOBILE SERVICE AUDIT &amp; CONSULTING
+  </text>
+
+  <!-- Right Gold Accent Line -->
+  <line x1="685" y1="278" x2="775" y2="278" stroke="#C58928" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Core Tagline: AUDIT • ANALYZE • IMPROVE -->
+  <text x="400" y="318" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" font-style="italic" fill="#081A36" text-anchor="middle" letter-spacing="5">
+    AUDIT  <tspan fill="#C58928">•</tspan>  ANALYZE  <tspan fill="#C58928">•</tspan>  IMPROVE
+  </text>
+</svg>
