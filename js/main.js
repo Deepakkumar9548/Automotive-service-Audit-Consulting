@@ -1,7 +1,8 @@
 /**
- * Automotive Audit Website - Main Interactions & Utilities
+ * ASAC - Main Interactions & Utilities
  * Controls Back-To-Top button, Dynamic Floating WhatsApp Quick-Connect Widget,
- * smooth scrolling, dynamic footer year, and Hero dynamic focus cycler.
+ * smooth scrolling, dynamic footer year, Hero dynamic focus cycler,
+ * and Hero dynamic ASAC brand switcher.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,87 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       backToTopBtn.classList.remove('visible');
     }
-  
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
+  });
 
   backToTopBtn.addEventListener('click', () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
-    
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
-  
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
+    });
+  });
 
   // 2. Floating WhatsApp Quick-Connect Widget
   const waNum = (typeof COMPANY !== 'undefined' && COMPANY.whatsapp) ? COMPANY.whatsapp : '910000000000';
-  const waDefaultMsg = encodeURIComponent("Hello, I would like to schedule a Confidential After-Sales Audit Review for our dealership.");
+  const waDefaultMsg = encodeURIComponent("Hello, I would like to schedule a Confidential Audit Review for our dealership with ASAC.");
 
   const floatingWa = document.createElement('a');
   floatingWa.className = 'floating-whatsapp-widget';
@@ -127,30 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentYear = new Date().getFullYear();
   yearSpans.forEach(span => {
     span.textContent = currentYear;
-  
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
+  });
 
   // 4. Smooth anchor scrolling for in-page hashes
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -163,80 +72,11 @@ document.addEventListener('DOMContentLoaded', () => {
           targetElement.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
-          
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
+          });
         }
       }
-    
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
-  
-  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
-  const brandDynEl = document.getElementById('brandDynamicText');
-  if (brandDynEl) {
-    const brandNames = [
-      'ASAC',
-      'Automobile Service Audit & Consulting'
-    ];
-    let bIdx = 0;
-    setInterval(() => {
-      brandDynEl.classList.add('brand-text-exit');
-      setTimeout(() => {
-        bIdx = (bIdx + 1) % brandNames.length;
-        brandDynEl.textContent = brandNames[bIdx];
-        brandDynEl.classList.remove('brand-text-exit');
-        brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
-        void brandDynEl.offsetWidth;
-        brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
-  }
-});
-
+    });
+  });
 
   // 5. Hero Dynamic Focus Cycler (Zero-Cutoff Smooth Phrase Rotation)
   const focusPhrases = document.querySelectorAll('.focus-phrase');
@@ -273,11 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
         brandDynEl.textContent = brandNames[bIdx];
         brandDynEl.classList.remove('brand-text-exit');
         brandDynEl.classList.add('brand-text-enter');
-        // trigger reflow
         void brandDynEl.offsetWidth;
         brandDynEl.classList.remove('brand-text-enter');
-      }, 400);
-    }, 3200);
+      }, 450);
+    }, 3000);
   }
 });
-
