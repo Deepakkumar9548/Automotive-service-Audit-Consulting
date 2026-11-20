@@ -7096,17 +7096,28 @@ img {
   transform: scale(1.12) !important;
 }
 
-.footer-logo-img {
-  height: 60px !important;
-  max-height: 64px !important;
-  width: auto !important;
-  max-width: 240px !important;
-  object-fit: contain !important;
+.footer-logo-card {
+  display: inline-block !important;
   background: #FFFFFF !important;
-  padding: 8px 16px !important;
-  border-radius: 10px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  padding: 12px 18px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  margin-bottom: 1.5rem !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.footer-logo-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45) !important;
+}
+
+.footer-logo-img {
+  height: 80px !important;
+  max-height: 85px !important;
+  width: auto !important;
+  max-width: 290px !important;
+  object-fit: contain !important;
   display: block !important;
-  transform: scale(1.05) !important;
-  transform-origin: left center !important;
+  image-rendering: -webkit-optimize-contrast !important;
 }
