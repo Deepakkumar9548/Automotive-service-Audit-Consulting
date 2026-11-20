@@ -1,0 +1,7 @@
+# robots.txt for Automotive After-Sales Audit & Consulting Website
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Sitemaps
+Sitemap: https://yourdomain.com/sitemap.xml

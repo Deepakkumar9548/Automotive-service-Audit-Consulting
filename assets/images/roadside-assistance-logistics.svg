@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_rsa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg_rsa)"/>
+
+  <g transform="translate(100, 150)">
+    <rect x="0" y="110" width="460" height="30" rx="4" fill="#334155"/>
+    
+    <path d="M340,110 L340,30 C340,25 345,20 350,20 L410,20 C425,20 440,35 450,55 L475,95 C480,100 480,105 480,110 Z" fill="#EAB308"/>
+    <path d="M375,32 L405,32 C415,32 425,42 432,55 L445,80 L375,80 Z" fill="#1E293B"/>
+    <circle cx="465" cy="100" r="6" fill="#F8FAFC"/>
+
+    <polygon points="30,110 320,65 320,110" fill="#475569"/>
+    
+    <g transform="translate(60, 20) rotate(-7)">
+      <path d="M15,40 Q25,18 60,15 L120,15 Q150,18 165,40 L180,48 C182,50 185,54 185,58 L185,65 L0,65 L0,58 C0,54 5,48 15,40 Z" fill="#2563EB"/>
+      <path d="M35,32 L60,20 L115,20 L140,32 Z" fill="#93C5FD" opacity="0.8"/>
+      <circle cx="35" cy="65" r="14" fill="#0F172A"/>
+      <circle cx="145" cy="65" r="14" fill="#0F172A"/>
+    </g>
+
+    <circle cx="80" cy="140" r="26" fill="#0F172A" stroke="#94A3B8" stroke-width="4"/>
+    <circle cx="160" cy="140" r="26" fill="#0F172A" stroke="#94A3B8" stroke-width="4"/>
+    <circle cx="420" cy="140" r="26" fill="#0F172A" stroke="#94A3B8" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(560, 60)">
+    <rect width="200" height="280" rx="10" fill="#0B1728" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="10" y="10" width="180" height="30" rx="4" fill="#1E293B"/>
+    <text x="20" y="29" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="10">GPS ROUTE SCRUTINY</text>
+
+    <g transform="translate(20, 60)">
+      <circle cx="80" cy="60" r="50" fill="none" stroke="#1E40AF" stroke-width="1.5"/>
+      <circle cx="80" cy="60" r="30" fill="none" stroke="#1E40AF" stroke-width="1.5"/>
+      <circle cx="80" cy="60" r="10" fill="#22C55E"/>
+      
+      <line x1="40" y1="90" x2="110" y2="40" stroke="#22C55E" stroke-width="2.5"/>
+      <text x="0" y="130" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="9.5">Actual GPS: 24.2 KM</text>
+      <text x="0" y="148" fill="#EF4444" font-family="'Segoe UI', sans-serif" font-size="9.5">Vendor Billed: 55.0 KM</text>
+      <text x="0" y="172" fill="#DFB75A" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="10">VARIANCE DETECTED</text>
+      <text x="0" y="188" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="8.5">Debit Note Formulated</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect width="280" height="48" rx="8" fill="#020617" stroke="#DFB75A" stroke-width="1.5"/>
+    <circle cx="26" cy="24" r="12" fill="#DFB75A"/>
+    <path d="M21 24l4 4 7-8" stroke="#020617" stroke-width="2.5" fill="none"/>
+    <text x="48" y="20" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">ROADSIDE ASSISTANCE AUDIT</text>
+    <text x="48" y="36" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">Vendor Towing Verification &amp; OEM Reimbursements</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_insp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg_insp)"/>
+
+  <g transform="translate(60, 80)">
+    <path d="M60,200 C80,120 160,80 280,70 L390,70 C480,75 520,110 560,180 L610,210 C625,220 635,235 635,255 L635,290 C635,305 620,315 605,315 L50,315 C30,315 20,305 20,290 L20,250 C20,230 35,215 60,200 Z" fill="#0B1E36" stroke="#2563EB" stroke-width="2.5"/>
+    <path d="M140,180 L230,95 L390,95 L490,180 Z" fill="#1E3A8A" opacity="0.6" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="310" y1="95" x2="310" y2="180" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="150" cy="300" r="45" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+    <circle cx="150" cy="300" r="22" fill="#1E293B" stroke="#C89D3C" stroke-width="3"/>
+    <circle cx="490" cy="300" r="45" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+    <circle cx="490" cy="300" r="22" fill="#1E293B" stroke="#C89D3C" stroke-width="3"/>
+
+    <g transform="translate(150, 300)">
+      <circle cx="0" cy="0" r="8" fill="#22C55E"/>
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#22C55E" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <line x1="0" y1="-25" x2="0" y2="-55" stroke="#22C55E" stroke-width="1.5"/>
+      <rect x="-55" y="-80" width="110" height="25" rx="4" fill="#0F172A" stroke="#22C55E"/>
+      <text x="0" y="-63" fill="#22C55E" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="9" text-anchor="middle">BRAKES: PASS (9mm)</text>
+    </g>
+
+    <g transform="translate(520, 150)">
+      <circle cx="0" cy="0" r="8" fill="#EAB308"/>
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#EAB308" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <line x1="0" y1="-25" x2="0" y2="-55" stroke="#EAB308" stroke-width="1.5"/>
+      <rect x="-60" y="-80" width="120" height="25" rx="4" fill="#0F172A" stroke="#EAB308"/>
+      <text x="0" y="-63" fill="#EAB308" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="9" text-anchor="middle">LUBE TOP-UP AUDIT</text>
+    </g>
+
+    <g transform="translate(320, 180)">
+      <circle cx="0" cy="0" r="8" fill="#38BDF8"/>
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <line x1="0" y1="25" x2="0" y2="55" stroke="#38BDF8" stroke-width="1.5"/>
+      <rect x="-65" y="55" width="130" height="25" rx="4" fill="#0F172A" stroke="#38BDF8"/>
+      <text x="0" y="72" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="9" text-anchor="middle">BODYMARK INVENTORY</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect width="280" height="48" rx="8" fill="#020617" stroke="#DFB75A" stroke-width="1.5"/>
+    <circle cx="26" cy="24" r="12" fill="#DFB75A"/>
+    <path d="M21 24l4 4 7-8" stroke="#020617" stroke-width="2.5" fill="none"/>
+    <text x="48" y="20" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">VEHICLE IN-GATE &amp; QUALITY AUDIT</text>
+    <text x="48" y="36" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">Job Card Demand vs Actual Physical Execution</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_war" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0B1329"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg_war)"/>
+
+  <g transform="translate(80, 80)">
+    <rect x="20" y="0" width="260" height="300" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+    <rect x="10" y="15" width="260" height="300" rx="8" fill="#1E3A8A" stroke="#2563EB" stroke-width="2"/>
+    <rect x="0" y="30" width="260" height="300" rx="8" fill="#FFFFFF"/>
+    
+    <rect x="20" y="55" width="220" height="35" rx="4" fill="#0B2545"/>
+    <text x="35" y="77" fill="#DFB75A" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">OEM WARRANTY CLAIM DOSSIER</text>
+    
+    <rect x="20" y="105" width="100" height="10" rx="2" fill="#E2E8F0"/>
+    <rect x="130" y="105" width="110" height="10" rx="2" fill="#CBD5E1"/>
+    
+    <rect x="20" y="125" width="140" height="10" rx="2" fill="#E2E8F0"/>
+    <rect x="170" y="125" width="70" height="10" rx="2" fill="#CBD5E1"/>
+
+    <rect x="20" y="145" width="80" height="10" rx="2" fill="#E2E8F0"/>
+    <rect x="110" y="145" width="130" height="10" rx="2" fill="#CBD5E1"/>
+
+    <rect x="20" y="175" width="220" height="45" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="35" y="195" fill="#64748B" font-family="'Segoe UI', sans-serif" font-size="10">APPROVED REIMBURSEMENT</text>
+    <text x="35" y="212" fill="#15803D" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14">₹ 1,84,500.00</text>
+
+    <g transform="translate(110, 240) rotate(-10)">
+      <rect width="120" height="40" rx="4" fill="none" stroke="#22C55E" stroke-width="2.5"/>
+      <text x="60" y="24" fill="#22C55E" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="11" text-anchor="middle" letter-spacing="1">AUDITED &amp; SETTLED</text>
+    </g>
+  </g>
+
+  <g transform="translate(420, 70)">
+    <rect width="320" height="340" rx="12" fill="#0B1728" stroke="#1E3A8A" stroke-width="2"/>
+    <rect x="15" y="15" width="290" height="36" rx="6" fill="#1E293B"/>
+    <text x="25" y="38" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">WARRANTY DEBIT NOTE ANALYSIS</text>
+
+    <g transform="translate(15, 70)">
+      <rect width="290" height="60" rx="6" fill="#111827" stroke="#EF4444" stroke-width="1"/>
+      <text x="15" y="24" fill="#EF4444" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11">TECHNICAL REJECTION CLAIMS</text>
+      <text x="15" y="44" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">Missing fail codes &amp; defective part tags</text>
+      <text x="240" y="38" fill="#EF4444" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14">18 ROs</text>
+
+      <rect y="75" width="290" height="60" rx="6" fill="#111827" stroke="#F59E0B" stroke-width="1"/>
+      <text x="15" y="99" fill="#F59E0B" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11">DELAYED SUBMISSION EXPIRY</text>
+      <text x="15" y="119" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">>30 days pending dealer portal uploads</text>
+      <text x="240" y="113" fill="#F59E0B" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14">₹4.8L</text>
+
+      <rect y="150" width="290" height="60" rx="6" fill="#111827" stroke="#38BDF8" stroke-width="1"/>
+      <text x="15" y="174" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11">INSURANCE SURVEYOR SHORT-SETTLEMENT</text>
+      <text x="15" y="194" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">Bodyshop paint/panel labor deductions</text>
+      <text x="240" y="188" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="14">100%</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect width="280" height="48" rx="8" fill="#0B1329" stroke="#DFB75A" stroke-width="1.5"/>
+    <circle cx="26" cy="24" r="12" fill="#DFB75A"/>
+    <path d="M21 24l4 4 7-8" stroke="#0B1329" stroke-width="2.5" fill="none"/>
+    <text x="48" y="20" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">WARRANTY &amp; CLAIMS RECOVERY</text>
+    <text x="48" y="36" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">OEM Debit Note Mitigation &amp; Claim Settlement</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_biz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg_biz)"/>
+
+  <g transform="translate(400, 220)">
+    <path d="M0,-140 C80,-140 140,-110 140,-30 C140,70 60,120 0,160 C-60,120 -140,70 -140,-30 C-140,-110 -80,-140 0,-140 Z" fill="#0F172A" stroke="#DFB75A" stroke-width="4"/>
+    <path d="M0,-125 C68,-125 120,-100 120,-30 C120,55 50,105 0,140 C-50,105 -120,55 -120,-30 C-120,-100 -68,-125 0,-125 Z" fill="#1E293B"/>
+
+    <circle cx="-15" cy="-20" r="45" fill="none" stroke="#38BDF8" stroke-width="5"/>
+    <line x1="18" y1="13" x2="60" y2="55" stroke="#DFB75A" stroke-width="8" stroke-linecap="round"/>
+    
+    <path d="M-30 -20 l12 12 l24 -24" stroke="#22C55E" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(60, 90)">
+    <rect width="240" height="250" rx="10" fill="#0B1329" stroke="#1E40AF" stroke-width="2"/>
+    <text x="20" y="35" fill="#DFB75A" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">THREE-WAY TRIANGULATION</text>
+    
+    <g transform="translate(20, 60)">
+      <rect width="200" height="40" rx="6" fill="#1E293B"/>
+      <text x="15" y="25" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="11">1. DMS Invoices &amp; Job Cards</text>
+
+      <rect y="55" width="200" height="40" rx="6" fill="#1E293B"/>
+      <text x="15" y="80" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="11">2. Physical Gate Out Register</text>
+
+      <rect y="110" width="200" height="40" rx="6" fill="#1E293B"/>
+      <text x="15" y="135" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="11">3. Bank UPI &amp; Cash Settlements</text>
+    </g>
+  </g>
+
+  <g transform="translate(560, 90)">
+    <rect width="200" height="250" rx="10" fill="#0B1329" stroke="#1E40AF" stroke-width="2"/>
+    <text x="20" y="35" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">AUDIT PILLARS</text>
+
+    <g transform="translate(20, 60)">
+      <text x="0" y="18" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">• Zero Revenue Leakage</text>
+      <text x="0" y="48" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">• SOP &amp; Policy Adherence</text>
+      <text x="0" y="78" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">• Dealership Profitability</text>
+      <text x="0" y="108" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">• Risk Management</text>
+      <text x="0" y="138" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">• Board-Level Governance</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect width="325" height="48" rx="8" fill="#020617" stroke="#DFB75A" stroke-width="1.5"/>
+    <circle cx="26" cy="24" r="12" fill="#DFB75A"/>
+    <path d="M21 24l4 4 7-8" stroke="#020617" stroke-width="2.5" fill="none"/>
+    <text x="48" y="20" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11.5">INSTITUTIONAL AUDIT PRACTICE</text>
+    <text x="48" y="36" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-size="9.5">Independent Scrutiny for Automobile Dealer Groups</text>
+  </g>
+</svg>

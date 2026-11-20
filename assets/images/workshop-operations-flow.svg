@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_wf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1329"/>
+      <stop offset="60%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg_wf)"/>
+
+  <g transform="translate(50, 80)">
+    <rect x="0" y="60" width="120" height="100" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="60" y="95" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">GATE-IN</text>
+    <text x="60" y="115" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle">Security Log</text>
+    <circle cx="60" cy="140" r="10" fill="#22C55E"/>
+    
+    <line x1="120" y1="110" x2="180" y2="110" stroke="#38BDF8" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="180,110 172,105 172,115" fill="#38BDF8"/>
+
+    <rect x="190" y="60" width="120" height="100" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="250" y="95" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">JOB CARD</text>
+    <text x="250" y="115" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle">DMS Estimation</text>
+    <circle cx="250" cy="140" r="10" fill="#22C55E"/>
+
+    <line x1="310" y1="110" x2="370" y2="110" stroke="#38BDF8" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="370,110 362,105 362,115" fill="#38BDF8"/>
+
+    <rect x="380" y="60" width="120" height="100" rx="8" fill="#1E3A8A" stroke="#DFB75A" stroke-width="2.5"/>
+    <text x="440" y="95" fill="#DFB75A" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">BAY REPAIR</text>
+    <text x="440" y="115" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle">Parts + Clocking</text>
+    <circle cx="440" cy="140" r="10" fill="#DFB75A"/>
+
+    <line x1="500" y1="110" x2="560" y2="110" stroke="#38BDF8" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="560,110 552,105 552,115" fill="#38BDF8"/>
+
+    <rect x="570" y="60" width="120" height="100" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="630" y="95" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">FINAL BILL</text>
+    <text x="630" y="115" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle">Discounts &amp; Tax</text>
+    <circle cx="630" cy="140" r="10" fill="#22C55E"/>
+  </g>
+
+  <g transform="translate(100, 260)">
+    <rect width="600" height="130" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1.5"/>
+    <text x="25" y="32" fill="#DFB75A" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">CRITICAL AUDIT CONTROL CHECKS</text>
+    
+    <g transform="translate(25, 50)">
+      <circle cx="8" cy="12" r="5" fill="#EF4444"/>
+      <text x="24" y="16" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11">Open RO WIP Aging: 48+ Hour Stalled Cars identified on workshop floor</text>
+      
+      <circle cx="8" cy="38" r="5" fill="#EF4444"/>
+      <text x="24" y="42" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11">Pre-Invoice vs Final Billing: Zero unauthorized labour waivers or unbilled parts</text>
+
+      <circle cx="8" cy="64" r="5" fill="#22C55E"/>
+      <text x="24" y="68" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11">Gate Pass Integrity: Electronic clearance verification against settled invoices</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect width="270" height="48" rx="8" fill="#0B1329" stroke="#C89D3C" stroke-width="1.5"/>
+    <circle cx="26" cy="24" r="12" fill="#C89D3C"/>
+    <path d="M21 24l4 4 7-8" stroke="#0B1329" stroke-width="2.5" fill="none"/>
+    <text x="48" y="20" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12">WORKFLOW VELOCITY AUDIT</text>
+    <text x="48" y="36" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10">Turnaround Time (TAT) &amp; Friction Elimination</text>
+  </g>
+</svg>
