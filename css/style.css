@@ -7121,3 +7121,38 @@ img {
   display: block !important;
   image-rendering: -webkit-optimize-contrast !important;
 }
+
+
+/* ==========================================================================
+   DYNAMIC BRAND NAME SWITCHER (ASAC <-> Automobile Service Audit & Consulting)
+   ========================================================================== */
+.hero-brand-headline {
+  font-size: clamp(2rem, 3.4vw, 3.1rem) !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 1.25rem !important;
+  display: block !important;
+}
+
+.brand-dynamic-switcher {
+  display: inline-block;
+  color: var(--color-accent-gold);
+  position: relative;
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brand-text-active {
+  display: inline-block;
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brand-text-exit {
+  opacity: 0;
+  transform: translateY(-12px);
+}
+
+.brand-text-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}

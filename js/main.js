@@ -22,14 +22,83 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       backToTopBtn.classList.remove('visible');
     }
-  });
+  
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
 
   backToTopBtn.addEventListener('click', () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
-    });
-  });
+    
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
+  
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
 
   // 2. Floating WhatsApp Quick-Connect Widget
   const waNum = (typeof COMPANY !== 'undefined' && COMPANY.whatsapp) ? COMPANY.whatsapp : '910000000000';
@@ -58,7 +127,30 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentYear = new Date().getFullYear();
   yearSpans.forEach(span => {
     span.textContent = currentYear;
-  });
+  
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
 
   // 4. Smooth anchor scrolling for in-page hashes
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -71,11 +163,80 @@ document.addEventListener('DOMContentLoaded', () => {
           targetElement.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
-          });
+          
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
         }
       }
-    });
-  });
+    
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
+  
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
+});
+
 
   // 5. Hero Dynamic Focus Cycler (Zero-Cutoff Smooth Phrase Rotation)
   const focusPhrases = document.querySelectorAll('.focus-phrase');
@@ -96,4 +257,27 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 500);
     }, 2800);
   }
+
+  // 6. Dynamic Hero Brand Switcher (ASAC <-> Automobile Service Audit & Consulting)
+  const brandDynEl = document.getElementById('brandDynamicText');
+  if (brandDynEl) {
+    const brandNames = [
+      'ASAC',
+      'Automobile Service Audit & Consulting'
+    ];
+    let bIdx = 0;
+    setInterval(() => {
+      brandDynEl.classList.add('brand-text-exit');
+      setTimeout(() => {
+        bIdx = (bIdx + 1) % brandNames.length;
+        brandDynEl.textContent = brandNames[bIdx];
+        brandDynEl.classList.remove('brand-text-exit');
+        brandDynEl.classList.add('brand-text-enter');
+        // trigger reflow
+        void brandDynEl.offsetWidth;
+        brandDynEl.classList.remove('brand-text-enter');
+      }, 400);
+    }, 3200);
+  }
 });
+
