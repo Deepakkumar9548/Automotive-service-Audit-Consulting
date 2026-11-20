@@ -7156,3 +7156,56 @@ img {
   opacity: 0;
   transform: translateY(12px);
 }
+
+/* ==========================================================================
+   SERVICE MODULE LAYOUT & OPTIMAL READING WIDTH
+   ========================================================================== */
+.service-detail-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 340px !important;
+  gap: 2.75rem !important;
+  max-width: 1320px !important;
+  margin: 0 auto !important;
+  align-items: start !important;
+}
+
+.service-main-content {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 1024px) {
+  .service-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+    max-width: 800px !important;
+  }
+  .service-sidebar {
+    position: static !important;
+    width: 100% !important;
+  }
+}
+
+
+/* Services Page Grid Perfect Responsive Width */
+.services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+  gap: 1.75rem !important;
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+}
+
+.services-hero-container,
+.container-wide {
+  max-width: 1440px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+}
