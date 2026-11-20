@@ -15,9 +15,9 @@
  */
 
 const COMPANY = {
-  name: "AUTOMOTIVE AFTER-SALES AUDIT & CONSULTING",
-  shortName: "AUTO-AUDIT",
-  tagline: "Independent Workshop Audit & Consulting",
+  name: "ASAC - AFTER-SALES AUDIT CONSULTING",
+  shortName: "ASAC",
+  tagline: "Audit • Analyze • Improve",
   subTagline: "After-Sales Risk Management & Revenue Advisory",
 
   // =========================================================================
