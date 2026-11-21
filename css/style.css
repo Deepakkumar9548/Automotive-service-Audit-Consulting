@@ -7162,9 +7162,9 @@ img {
    ========================================================================== */
 .service-detail-grid {
   display: grid !important;
-  grid-template-columns: minmax(0, 1fr) 340px !important;
+  grid-template-columns: minmax(0, 1fr) 360px !important;
   gap: 2.75rem !important;
-  max-width: 1320px !important;
+  max-width: 1440px !important;
   margin: 0 auto !important;
   align-items: start !important;
 }
@@ -7211,7 +7211,7 @@ img {
 }
 
 .module-container {
-  max-width: 1320px !important;
+  max-width: 1440px !important;
   width: 95% !important;
   margin: 0 auto !important;
   padding: 0 1.25rem !important;
@@ -7252,4 +7252,44 @@ img {
 
 .dropdown-menu li:not(:last-child) {
   border-bottom: 1px solid #F1F5F9 !important;
+}
+
+/* Ensure perfect executive full-width layout for all module and service pages */
+.module-container,
+.container-wide {
+  max-width: 1440px !important;
+  width: 96% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.service-detail-grid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 360px !important;
+  gap: 3rem !important;
+}
+
+.service-main-content {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.service-sidebar {
+  width: 100% !important;
+}
+
+.service-card {
+  height: 100% !important;
+}
+
+.services-grid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }
